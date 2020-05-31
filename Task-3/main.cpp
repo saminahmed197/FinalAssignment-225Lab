@@ -10,7 +10,6 @@ int main()
     stck.Push(4);
     stck.Push(2);
     stck.Push(1);
-    StackType<int> st;
     stck.Reverse();
     cout<<"After calling reverse function: "<<endl;
     while(!stck.IsEmpty())
