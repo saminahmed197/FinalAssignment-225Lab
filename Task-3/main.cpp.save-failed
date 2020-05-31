@@ -1,0 +1,104 @@
+#include <iostream>
+#include "stacktype.h"
+using namespace std;
+
+int main()
+{
+    StackType<int> stck;
+    bool b=stck.IsEmpty();
+    if(b==true)
+        cout<<"Stack is empty"<<endl;
+        else
+            cout<<"Stack is not empty"<<endl;
+    stck.Push(5);
+    stck.Push(7);
+    stck.Push(4);
+    stck.Push(2);
+    b=stck.IsEmpty();
+    if(b==true)
+        cout<<"Stack is empty"<<endl;
+        else
+            cout<<"Stack is not empty"<<endl;
+    b=stck.IsFull();
+    if(b==true)
+        cout<<"Stack is full"<<endl;
+        else
+            cout<<"Stack is not full"<<endl;
+  StackType<int> st;
+   while (!stck.IsEmpty())
+    {
+        int t = stck.Top();
+        stck.Pop();
+        st.Push(t);
+    }
+    while (!st.IsEmpty())
+    {
+        int t = st.Top();
+        cout<<t<<" ";
+        stck.Push(t);
+        st.Pop();
+
+    }
+    stck.Push(3);
+     while (!stck.IsEmpty())
+    {
+        int t = stck.Top();
+        stck.Pop();
+        st.Push(t);
+    }
+    cout<<endl;
+    while (!st.IsEmpty())
+    {
+        int t = st.Top();
+        cout<<t<<" ";
+        stck.Push(t);
+        st.Pop();
+    }
+    cout<<endl;
+    b=stck.IsFull();
+    if(b==true)
+        cout<<"Stack is full"<<endl;
+        else
+            cout<<"Stack is not full"<<endl;
+
+    while(!stck.IsEmpty())
+    {
+        int t=stck.Top();
+        if(t==4)
+            break;
+
+        else
+           stck.Pop();
+    }
+
+        int t = stck.Top();
+          cout<<t<<" ";
+        cout<<endl;
+
+        StackType<char>s;
+        bool bo=true;
+        string c;
+        cout<<"Enter string: ";
+        cin>>c;
+        for(int i=0;i<c.length();i++)
+        {
+
+            if(c[i]=='(')
+                s.Push(c[i]);
+                else if(c[i]==')')
+                {
+                    if(!s.IsEmpty()&&s.Top()=='(')
+                    {
+                        s.Pop();
+                        bo=true;
+                    }
+                    else
+                        bo=false;
+                }
+        }
+        if(bo==true&&s.IsEmpty())
+            cout<<"Balanced";
+        else
+            cout<<"Not balanced";
+    return 0;
+}

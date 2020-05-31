@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1586102238 source:c:\users\user\desktop\codeblocks\codes\stack\main.cpp
+	<iostream>
+	"stacktype.h"
+
+1586091526 c:\users\user\desktop\codeblocks\codes\stack\stacktype.h
+	<iostream>
+	"stacktype.tpp"
+
+1586099243 c:\users\user\desktop\codeblocks\codes\stack\stacktype.tpp
+	"stacktype.h"
+
+1590419960 source:c:\users\user\desktop\codeblocks\cse-225 lab codes\stack\main.cpp
+	<iostream>
+	"stacktype.h"
+
+1590418408 c:\users\user\desktop\codeblocks\cse-225 lab codes\stack\stacktype.h
+	<iostream>
+	"stacktype.tpp"
+
+1590420713 c:\users\user\desktop\codeblocks\cse-225 lab codes\stack\stacktype.tpp
+	"stacktype.h"
+
+1590751005 source:c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\stack\main.cpp
+	<iostream>
+	"stacktype.h"
+
+1590590885 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\stack\stacktype.h
+	<iostream>
+	"stacktype.tpp"
+
+1590750966 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\stack\stacktype.tpp
+	"stacktype.h"
+
+1590914923 source:c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-3\main.cpp
+	<iostream>
+	"stacktype.h"
+
+1590590885 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-3\stacktype.h
+	<iostream>
+	"stacktype.tpp"
+
+1590914923 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-3\stacktype.tpp
+	"stacktype.h"
+
