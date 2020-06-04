@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1590839951 source:c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\main.cpp
+	<iostream>
+	<cmath>
+	"pqtype.h"
+	"points.h"
+
+1590839899 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\pqtype.h
+	"heaptype.h"
+	"pqtype.tpp"
+
+1590751980 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\heaptype.h
+	"heaptype.tpp"
+
+1590752142 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\heaptype.tpp
+	"heaptype.h"
+
+1590840060 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\pqtype.tpp
+	"pqtype.h"
+
+1590839867 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\points.h
+	"pqtype.h"
+	"points.tpp"
+
+1590839916 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\priorityheap\priorityqueue\points.tpp
+	"points.h"
+	"pqtype.h"
+	<cmath>
+
+1591116697 source:c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\main.cpp
+	<iostream>
+	<cmath>
+	"pqtype.h"
+	"points.h"
+
+1590839899 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\pqtype.h
+	"heaptype.h"
+	"pqtype.tpp"
+
+1590751980 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\heaptype.h
+	"heaptype.tpp"
+
+1590752142 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\heaptype.tpp
+	"heaptype.h"
+
+1591266532 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\pqtype.tpp
+	"pqtype.h"
+
+1590839867 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\points.h
+	"pqtype.h"
+	"points.tpp"
+
+1590839916 c:\users\shakir ahmed\desktop\samin\finalassignment(2020)\cse-225\final exam lab\task-1\priorityqueue\points.tpp
+	"points.h"
+	"pqtype.h"
+	<cmath>
+
